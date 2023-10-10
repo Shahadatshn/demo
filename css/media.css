@@ -1,0 +1,586 @@
+/*========== extra small device media part===========*/
+@media(max-width:575.98px){
+.navbar-light .navbar-toggler {
+	color: #fff;
+    border-color: transparent; 
+	font-size: 20px;
+}
+button:focus {
+    outline: 0; 
+}
+.nav-item{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.navbar-nav {
+	margin-top: 10px;
+/*    background: #3e3e3e;*/
+}
+.navbar-light .navbar-nav .nav-link {
+	display: inline-block;
+}
+.navbar-light .navbar-nav .nav-link:after {
+	position: absolute;
+	content: '';
+	left: 50%;
+	bottom: -10px;
+	height: 3px;
+	width: 50%;
+    transform: translateX(-50%); 
+	background: #ffc015;
+	opacity: 0;
+	transition: all linear .3s;
+}
+#banner {
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+#skills{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.skills-txt {
+    padding-bottom: 0; 
+}
+.card-text {
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+.skill-link {
+	text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.skill-link .btn {
+    margin: 0 5px;
+}
+.skill-link .btn {
+	font-size: 15px;
+}
+.card-title {
+    padding-top: 20px;
+}
+#portfolio {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#testimonial {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.testi-main {
+	padding-bottom: 15px;
+}
+.testi-txt h3 {
+	padding-top: 30px;
+}
+#service {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.ser-heading {
+	padding-bottom: 30px;
+}
+.ser-item {
+	margin-bottom: 30px;
+}
+#counter {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.counter-item {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+#blog {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.blog-p h4 {
+	padding-right: 5px;
+}
+.blog-p i {
+	margin-right: 5px;
+}
+.blog-p {
+	margin-bottom: 20px;
+}
+#footer {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.copy p {
+	font-size: 14px;
+}
+.back-to-top {
+	right: 8px;
+}
+/*================= index2 version ==============*/
+.banner-txt .ban-head{
+    font-size: 20px;
+}
+.ser-index2 h4{
+    font-size: 22px;
+}
+#service .slick-center .ser-index2{
+    box-shadow: none;
+}    
+}
+/*========= banner part only============*/
+@media(min-width:320px) and (max-width:480.98px){
+.banner-txt h1 {
+	font-size: 18px;
+}
+.typed-cursor {
+	font-size: 2rem;
+}
+.banner-txt p {
+	line-height: 25px;
+	padding-bottom: 30px;
+    padding: 0 30px;
+    font-size: 13px;
+}
+.banner-txt a{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.ban-social{
+    display: none;
+}
+.a-r{
+    padding-right: 5px;
+    padding-left: 5px;
+}    
+}
+
+@media(min-width:481px) and (max-width:575.98px){
+.banner-txt h1 {
+	font-size: 22px;
+}
+.typed-cursor {
+	font-size: 2rem;
+}
+.banner-txt p {
+	line-height: 25px;
+/*	padding-bottom: 30px;*/
+    padding: 0 100px;
+    font-size: 14px;
+}
+.banner-txt a{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.ban-social{
+    display: none;
+}
+.a-r{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+}
+@media(min-width:320px) and (max-width:520.98px){
+.button {
+	padding: 7px 10px;
+	font-size: 14px;
+    margin-bottom: 20px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.button-group {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+}
+@media(min-width:521px) and (max-width:575.98px){
+.button {
+	padding: 7px 10px;
+	font-size: 14px;
+    margin-bottom: 20px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.button-group {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+}
+/*============= small device media part==========*/
+@media(min-width:576px) and (max-width:767.98px){
+.navbar-light .navbar-toggler {
+	color: #fff;
+    border-color: transparent; 
+	font-size: 20px;
+}
+button:focus {
+    outline: 0; 
+}
+.nav-item{
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.navbar-nav {
+	margin-top: 10px;
+/*    background: #3e3e3e;*/
+}
+.navbar-light .navbar-nav .nav-link {
+	display: inline-block;
+/*
+    left: 0;
+    padding-left: 0;
+*/
+}
+.navbar-light .navbar-nav .nav-link::after {
+	position: absolute;
+	content: '';
+	left: 50%;
+	bottom: -10px;
+	height: 3px;
+	width: 50%;
+    transform: translateX(-50%); 
+	background: #ffc015;
+	opacity: 0;
+	transition: all linear .3s;
+}
+#banner {
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+.banner-txt h1 {
+	font-size: 30px;
+}
+.typed-cursor {
+	font-size: 2rem;
+}
+.banner-txt p {
+	line-height: 25px;
+	padding-bottom: 30px;
+    padding: 0 60px;
+}
+.ban-social{
+    display: none;
+}
+#skills{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.skill-link {
+	text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.skill-link .btn {
+	padding: 10px 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#portfolio {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.button {
+	padding: 5px 8px;
+	font-size: 14px;
+    margin-bottom: 15px;
+}
+.button-group {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.port-txt i {
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	font-size: 18px;
+}
+.port-txt h4 {
+	font-size: 14px;
+	padding-top: 15px;
+}
+.port-txt p {
+	font-size: 14px;
+}
+#testimonial {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.testi-main {
+	padding-bottom: 15px;
+}
+.testi-txt h3 {
+	padding-top: 30px;
+}
+.testi-txt p {
+	line-height: 24px;
+	font-size: 14px;
+    padding-right: 30px;
+}
+#service {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.ser-item h4 {
+	font-size: 18px;
+}
+.ser-item p {
+	font-size: 14px;
+}
+#counter{
+    padding-top: 70px;
+	padding-bottom: 70px;
+}
+#blog{
+    padding-top: 70px;
+	padding-bottom: 70px;
+}
+.blog-p {
+	margin-bottom: 20px;
+}
+#footer {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+/*================= index2 version ==============*/
+.banner-txt .ban-head{
+    font-size: 35px;
+}
+#service .slick-center .ser-index2{
+    box-shadow: none;
+}
+}
+/*========== medium device media part==============*/
+@media(min-width:768px) and (max-width:991.98px){
+.navbar-light .navbar-nav .nav-link {
+	padding: 0 10px;
+}
+.banner-txt h1 {
+	font-size: 40px;
+}
+.banner-txt p {
+	line-height: 31px;
+	padding-bottom: 30px;
+	padding: 0 65px;
+	margin-bottom: 40px;
+}
+#skills{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.skill-link {
+	margin-bottom: 40px;
+}
+.card-title {
+	font-size: 30px;
+    padding-top: 0;
+}
+.card-text {
+	font-size: 20px;
+}
+.card-body p {
+	font-size: 16px;
+	line-height: 29px;
+}
+#portfolio {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+#testimonial {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.testi-txt h3 {
+	padding-top: 30px;
+}
+.testi-txt p {
+	line-height: 24px;
+	font-size: 14px;
+}
+#service {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+#counter {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+#blog {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.blog-p h5 {
+	font-size: 14px;
+}
+.news {
+	font-size: 14px;
+}
+#footer {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+/*
+.copy p{
+    text-align: center;
+}
+.text-right {
+	text-align: center !important;
+}
+.copy i {
+	margin-bottom: 25px;
+}
+*/
+/*================= index2 version ==============*/
+.banner-txt .ban-head{
+    font-size: 40px;
+}
+.ser-index2 h4{
+    font-size: 15px;
+}
+}
+/*========== large device media part==============*/
+@media(min-width:992px) and (max-width:1199.98px){
+.banner-txt h1 {
+	font-size: 45px;
+}
+.banner-txt p {
+	padding: 0 100px;
+}
+.skills-item {
+    padding-top: 40px; 
+}
+.card-body span{
+    display: none;
+}
+.barfiller {
+	margin-bottom: 20px;
+}
+.skills-item h4 {
+	padding-bottom: 15px;
+}
+.html {
+	padding-top: 15px;
+}
+.about-effect img{
+	height: 300px;
+}
+.ser-item h4 {
+	font-size: 23px;
+}
+.counter-item h4 {
+	font-size: 29px;
+}
+.testi-txt .spt{
+    display: none;
+}
+.testi-txt p {
+	line-height: 24px;
+	font-size: 16px;
+}
+.testi-txt i {
+	padding-bottom: 5px;
+}
+.testi-txt p {
+    padding-bottom: 0; 
+}
+.blog-p h4 {
+    padding-right: 0; 
+}
+.blog-p i {
+	margin-right: 7px;
+}
+.get p {
+	padding-bottom: 0;
+}
+.foot-link p {
+	font-size: 14px;
+}
+.foot-link p i {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+.ftl-l{
+    padding-right: 0;
+}
+.copy p {
+	font-size: 15px;
+}
+/*================= index2 version ==============*/
+.banner-txt .ban-head{
+    font-size: 50px;
+}
+.back-to-top {
+	bottom: 40px;
+	right: 10px;
+}
+}
+
+
+/*==========extra large device media part==============*/
+@media(min-width:1200px) and (max-width:1210px){
+.card-body span{
+    display: none;
+}
+.skill-link {
+	margin-top: 20px;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
